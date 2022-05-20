@@ -1,0 +1,49 @@
+.barbershop-list .ant-card{
+  border-radius: 5px;
+  border: 1px solid #1890ff;
+  margin: 10px 0;
+}
+.barbershop-list .barbershop-list-header{
+  margin-top: 30px;
+  background-color: $blue-color;
+}
+.barbershop-list p{
+  color: $black-color;
+  margin: 0;
+}
+.barbershop-list .barbershop-list-header p{
+  color: $white-color;
+  margin: 0;
+  font-weight: 700;
+}
+
+/* ----------------- Detail ---------------- */
+.description-container{
+  padding: 20px 10px 10px;
+  display: flex !important;
+  .ant-col-md-8{
+    margin: auto;
+  }
+  .ant-col-md-16{
+    padding: 0 20px;
+  }
+  .rating-container{
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+.comment-container{
+  padding: 0 50px;
+}
+.map-container > div{
+  width: 100% !important;
+}
+
+/* -------------- Barbershop Form ----------------- */
+.form-modal .ant-modal-confirm-btns{
+  display: none;
+}
+.ant-modal-confirm-content{
+  margin: 20px 0 0 0 !important;
+}
